@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Welcome to SEO optimizer</h1>
+    <form method="post" action="optimize/">
+        {% csrf_token %}
+        <textarea name="content" rows="15" cols="50"></textarea><br>
+        <button type="submit">Optimize</button>
+    </form>
+</body>
+</html>

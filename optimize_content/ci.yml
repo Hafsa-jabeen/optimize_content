@@ -1,0 +1,10 @@
+prepare:
+  steps:
+    - name: Install Dependencies
+      command: pipenv install   
+test:
+  steps: []
+run:
+  steps:
+    - name: Start Server
+      command: pipenv run python manage.py runserver
